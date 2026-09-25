@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <!-- ЗАМЕНИ: название вкладки -->
+    <link rel="stylesheet" href="assest/style.css">
+    <!-- Подключение иконок (можно заменить на свои) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ========== НАВИГАЦИЯ ========== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <!-- ЗАМЕНИ: своё имя или логотип -->
+                <a href="#home">Кира Боктаева</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== HERO (ГЛАВНЫЙ ЭКРАН) ========== -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                Привет, я <span class="highlight">Кира</span>
+            </h1>
+            <p class="hero-subtitle">
+                Дизайнер
+            </p>
+            <p class="hero-description">
+                Учусь на последнем курсе университета и пишу диплом (а может лучше рэп?)
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">Мои проекты</a>
+                <a href="#contact" class="btn secondary">Связаться</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/ughqw" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/ughqw" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ОБО МНЕ ========== -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Привет! Меня зовут <strong>Кира</strong>. Сейчас я занимаюсь разработкой туристического приложения для города Элиста.
+                    </p>
+                    <p>
+                        Мне нравится решать сложные задачи, изучать новые технологии и превращать идеи в работающие продукты.
+                    </p>
+                    <p>
+                        В свободное время я люблю слушать подкасты.
+                    </p>
+                    <a href="#contact" class="btn primary">Написать мне</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/фото1.jpg" alt="Фото">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ПРОЕКТЫ ========== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-grid">
+
+                <!-- ========== ПРОЕКТ 1 ========== -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/1.png" alt="Ink Workshop">
+                    </div>
+                    <div class="project-info">
+                        <h3>
+                            Ink Workshop</h3>
+                        <p>
+                            Создание сайта для мастерской живописи и каллиграфии.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ughwd/web-design-ink_workshop" target="_blank"><i class="fab fa-github"></i> Код</a>
+                            <a href="https://ughwd.github.io/web-design-ink_workshop/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Демо</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== ПРОЕКТ 3 ========== -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/книга.jpg" alt="Срез">
+                    </div>
+                    <div class="project-info">
+                        <h3>Срез</h3>
+                        <p>Создание гайдлайна для книжного издательства и магазина "Срез".</p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>Adobe Illustrator</span>
+                            <span>Adobe InDesign</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ughwd/srez" target="_blank"><i class="fab fa-github"></i> Демо</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== ПРОЕКТ 2 ========== -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/домикк.jpg" alt="Домик">
+                    </div>
+                    <div class="project-info">
+                        <h3>Домик</h3>
+                        <p>Создание лендинга для сервиса по подбору жилья "Домик".</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>Figma</span>
+                            <span>Java</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ughwd/web-design-promo_site" target="_blank"><i class="fab fa-github"></i> Код</a>
+                            <a href="https://ughwd.github.io/web-design-promo_site/" target="_blank"><i class="fas fa-external-link-alt"></i> Демо</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Можно копировать блок .project-card и добавлять новые проекты -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== НАВЫКИ ========== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Навыки</h2>
+            <div class="skills-grid">
+
+                <!-- ========== КАТЕГОРИЯ 1 ========== -->
+                <div class="skill-category">
+                    <h3>
+                        <!-- ЗАМЕНИ -->Frontend</h3>
+                    <ul>
+                        <!-- ЗАМЕНИ: список навыков -->
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript (just a little bit)</li>
+                    </ul>
+                </div>
+
+                <!-- ========== КАТЕГОРИЯ 2 ========== -->
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <!-- ========== КАТЕГОРИЯ 3 ========== -->
+                <div class="skill-category">
+                    <h3>Инструменты</h3>
+                    <ul>
+                        <li>Git / GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>Пакеты Adobe</li>
+                    </ul>
+                </div>
+
+                <!-- Можно добавить ещё категории -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== КОНТАКТЫ ========== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Связаться со мной</h2>
+            <p class="contact-subtitle">
+                Открыта к новым проектам и интересным предложениям. Напиши!
+            </p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:bgmaaa@yandex.ru">bgmaaa@yandex.ru</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-telegram"></i>
+                        <div>
+                            <h4>Telegram</h4>
+                            <a href="https://t.me/ughqw" target="_blank">ughqw</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/ughqw" target="_blank">github.com/ughqw</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Простая форма (работает только визуально, без бэкенда) -->
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Сообщение" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container">
+            <p>
+                © 2026 Кира Боктаева. Все права защищены.
+            </p>
+            <div class="footer-social">
+                <a href="https://github.com/ughqw" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/ughqw" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assest/main.js"></script>
+</body>
+
+</html>
